@@ -1,0 +1,105 @@
+.input-holder{
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.task-input{
+    width: 80%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px 5px;
+    border: none;
+    font-size: 20;
+    border-style: none;
+    background-color: #EAF2D7;
+    color: black;
+  }
+  .task-input:focus{
+    outline: none;
+  }
+  .button-add{
+    height: 100%;
+    width: 60px;
+    border-radius: 5px 5px;
+    border-style: none;
+    background-color: #166088;
+    color: aliceblue;
+  }
+
+  .add-todo{
+    width: 30%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 5px;
+    background-color: #B370B0;
+    border-radius: 10px 10px;
+    overflow: hidden;
+  }
+  .bg-holder{
+    width: 100%;
+    height: 30%;
+    position: relative;
+  }
+  .bg-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: relative;
+    top:0px
+    
+  }
+.bg-holder p{
+    position: absolute;
+    bottom: -10px;
+    right:10px;
+    color: aliceblue;
+}
+.tasks{
+    width: 90%;
+    height: 55%;
+    margin: auto;
+    border-radius: 10px;
+}
+.list{
+    width: 100%;
+    padding: 0px;
+}
+.list li{
+    display: flex;
+    width: 100%;
+    border: 1px solid white;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    border-radius: 5px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 5px;  
+    height: 40px; 
+}
+.icons{
+    display: flex;
+    gap:20px;
+}
+
+.completed {
+  text-decoration: line-through;
+  background-color:#E8E8E8;
+}
+
+
+
+.donee {
+  display: flex;
+  justify-content: space-between;  
+  font-weight: 500px;
+  margin-right: 20px; 
+  margin-left: 20px;
+  margin-top: -50px;
+}
+
